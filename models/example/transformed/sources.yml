@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+
+  - name: uwinnipeg
+    description: "Class test data"
+    database: CHIRU_DIT_45604_AIW01_D2024SP
+    schema: class_test
+    tables:
+      - name: CUSTOMERS
+        description: "this is the customer table info"
+      - name: ORDERS
+        description: "this is orders table info"
+      - name: PRODUCTS
+        description: "This is a product table info"
